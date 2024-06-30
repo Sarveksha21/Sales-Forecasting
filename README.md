@@ -1,21 +1,32 @@
-**Objectives of Sales Forecasting Dashboard:**
+**Sales_Forecasting**
 
-To contribute to the success of a business by utilizing data focusing on time series analysis, to provide valuable insights and accurate sales forecasting.
+Sales forecasting using multiple models - Seasonal Naïve, Holt-Winters, ARIMA, SARIMA and Linear Regression Model
 
-**Description:** The objective can be broken down into the following detailed components:
 
-**1. Dashboard Creation:** Identify the KPIs, design an intuitive & visually appealing dashboard, add interactive visualizations and filtering capabilities to allow users to explore the data at various levels of granularity.
+**Project Objective**
 
-**2. Data Analysis:** Provide valuable insights to business entities regarding the effectiveness of their sales strategies through visualization and charts.
+**Goal:** The goal of this project was to apply various quantitative methods, (i.e. Times Series Models and Causal Models) to forecast the sales of the products available in the dataset.
 
-**3. Sales Forecasting:** Leverage historic data and apply time series generate sales forecasts for next 15 days.
+Perform time series analysis to understand the data and trends
 
-**4. Actionable Insights and Recommendations:** End goal is to insight and actionable information that can drive strategic decided support the supermarket’s  goals for growth, efficiency, satisfaction.
+Use multiple forecasting models on train dataset
 
-**Insights :**
+Finally select the best model to run the test data
 
-Incorporated data analysis techniques, specializing in time series analysis, to deliver valuable insights, accurate sales forecasting and interactive dashboard creation, driving business success.
 
+**Models covered in the notebook include:**
+
+1)Seasonal Naive Model
+
+2)Holt-Winters Model (Triple Exponential Smoothing)
+
+3)ARIMA Model and Seasonal ARIMA Models
+
+4)Linear Regression Model
+
+**Conclusion**
+
+We considered different time-series models as well as a regression model for time series forecasting. From our results we saw that the linear regression model outperformed the other time-series models. Therefore, for this dataset we could use a regression model, rather than a time-series model to forecast sales. One of the main assumptions of regression models is that the patterns in the historical data will be repeated in the future, and since our data was highly seasonal and had a linear trend, it made sense why the linear regression model out-performed the other models.
 
 **Live Sales Forecasting Dashboard Link:**
 
